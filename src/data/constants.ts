@@ -31,11 +31,11 @@ export const INFO = {
         first: 'Samir',
         last: 'Ali',
     },
-    title: "I'm a Computer Science Student.",
+    title: "I'm a Software Engineer.",
     socialLinks: [
         {
             name: 'GitHub',
-            url: 'https://github.com/04Samir',
+            url: 'https://github.com/SamirTheSWE',
             icons: [RiGithubLine, RiGithubFill],
         },
         {
@@ -45,7 +45,7 @@ export const INFO = {
         },
         {
             name: 'LinkedIn',
-            url: 'https://linkedin.com/in/04-Samir-Ali',
+            url: 'https://linkedin.com/in/SamirTheSWE',
             icons: [RiLinkedinLine, RiLinkedinFill],
         },
     ],
@@ -70,7 +70,7 @@ export const PROJECTS = [
             { name: 'NumPy', icon: SiNumpy },
         ],
         image: '/projects/F1-Race-Forecasting.png',
-        github: 'https://github.com/04Samir/F1-Race-Forecasting',
+        github: 'https://github.com/SamirTheSWE/F1-Race-Forecasting',
         link: null,
     },
     {
@@ -89,7 +89,7 @@ export const PROJECTS = [
             { name: 'TailWind CSS', icon: SiTailwindcss },
         ],
         image: '/projects/Portfolio-V2.png',
-        github: 'https://github.com/04Samir/samir.cx',
+        github: 'https://github.com/SamirTheSWE/samir.cx',
         link: 'https://samir.cx',
     },
     {
@@ -112,7 +112,7 @@ export const PROJECTS = [
             { name: 'jQuery', icon: SiJquery },
         ],
         image: '/projects/TradeTicker.png',
-        github: 'https://github.com/04Samir/TradeTicker',
+        github: 'https://github.com/SamirTheSWE/TradeTicker',
         link: 'https://projects.samir.cx/TradeTicker',
     },
     {
@@ -133,7 +133,7 @@ export const PROJECTS = [
             { name: 'MySQL', icon: SiMysql },
         ],
         image: '/projects/Hello-World.png',
-        github: 'https://github.com/04Samir/Hello-World',
+        github: 'https://github.com/SamirTheSWE/Hello-World',
         link: 'https://projects.samir.cx/Hello-World',
     },
     {
@@ -154,7 +154,7 @@ export const PROJECTS = [
             { name: 'BootStrap', icon: SiBootstrap },
         ],
         image: '/projects/PostIt.png',
-        github: 'https://github.com/04Samir/PostIt',
+        github: 'https://github.com/SamirTheSWE/PostIt',
         link: 'https://projects.samir.cx/PostIt',
     },
     {
@@ -173,7 +173,7 @@ export const PROJECTS = [
             { name: 'p5.js', icon: SiP5Dotjs },
         ],
         image: '/projects/Drawing-Application.png',
-        github: 'https://github.com/04Samir/Drawing-Application',
+        github: 'https://github.com/SamirTheSWE/Drawing-Application',
         link: 'https://projects.samir.cx/Drawing-Application',
     },
     {
@@ -192,7 +192,7 @@ export const PROJECTS = [
             { name: 'p5.js', icon: SiP5Dotjs },
         ],
         image: '/projects/Penguin-Platformer.png',
-        github: 'https://github.com/04Samir/Penguin-Platformer',
+        github: 'https://github.com/SamirTheSWE/Penguin-Platformer',
         link: 'https://projects.samir.cx/Penguin-Platformer',
     },
     {
@@ -211,7 +211,7 @@ export const PROJECTS = [
             { name: 'jQuery', icon: SiJquery },
         ],
         image: '/projects/Portfolio-V1.png',
-        github: 'https://github.com/04Samir/v1.samir.cx',
+        github: 'https://github.com/SamirTheSWE/v1.samir.cx',
         link: 'https://v1.samir.cx',
     },
 ];
