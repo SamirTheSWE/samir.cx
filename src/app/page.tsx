@@ -53,7 +53,7 @@ export default function Home() {
         show: {
             opacity: 1,
             y: 0,
-            transition: { duration: 0.5, ease: 'easeOut' },
+            transition: { duration: 0.5, ease: 'easeOut' as const },
         },
     };
 
@@ -62,7 +62,7 @@ export default function Home() {
         show: {
             opacity: 1,
             y: 0,
-            transition: { duration: 0.5, ease: 'easeOut' },
+            transition: { duration: 0.5, ease: 'easeOut' as const },
         },
     };
 
@@ -71,7 +71,7 @@ export default function Home() {
         show: {
             opacity: 1,
             y: 0,
-            transition: { duration: 0.5, ease: 'easeOut', delay: 2 },
+            transition: { duration: 0.5, ease: 'easeOut' as const, delay: 2 },
         },
     };
 
@@ -80,7 +80,7 @@ export default function Home() {
         show: {
             opacity: 1,
             y: 0,
-            transition: { duration: 0.5, ease: 'easeOut' },
+            transition: { duration: 0.5, ease: 'easeOut' as const },
         },
     };
 
@@ -96,7 +96,7 @@ export default function Home() {
         hidden: { opacity: 0 },
         show: {
             opacity: 1,
-            transition: { duration: 0.3, ease: 'easeOut' },
+            transition: { duration: 0.3, ease: 'easeOut' as const },
         },
     };
 
@@ -196,7 +196,7 @@ export default function Home() {
                         <motion.div
                             className="bg-blue-light absolute top-0 left-0 h-full w-40"
                             animate={{ x: activeTab === 'certifications' ? '100%' : '0%' }}
-                            transition={{ duration: 0.3, ease: 'easeOut' }}
+                            transition={{ duration: 0.3, ease: 'easeOut' as const }}
                         />
                         <button
                             className={`relative flex h-12 w-40 cursor-pointer items-center justify-center font-bold transition-all duration-300 hover:text-lg ${
@@ -246,7 +246,10 @@ export default function Home() {
                                                 layoutId={`project-${i}`}
                                                 whileHover={{
                                                     scale: 1.04,
-                                                    transition: { duration: 0.5, ease: 'easeOut' },
+                                                    transition: {
+                                                        duration: 0.5,
+                                                        ease: 'easeOut' as const,
+                                                    },
                                                 }}
                                                 className={`group hover:border-blue-light relative cursor-pointer overflow-hidden rounded-lg border-2 border-transparent shadow-md transition-colors duration-300 ${
                                                     isLastSingleItem ? 'md:col-start-2' : ''
@@ -299,7 +302,10 @@ export default function Home() {
                                             animate="show"
                                             whileHover={{
                                                 scale: 1.02,
-                                                transition: { duration: 0.3, ease: 'easeOut' },
+                                                transition: {
+                                                    duration: 0.3,
+                                                    ease: 'easeOut' as const,
+                                                },
                                             }}
                                             className="group bg-navy-dark hover:border-blue-light relative flex w-full overflow-hidden rounded-lg border-2 border-transparent text-white shadow-md transition-all duration-500 ease-out"
                                         >

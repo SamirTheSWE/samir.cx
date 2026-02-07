@@ -117,7 +117,7 @@ export const NavBar = () => {
                         initial={{ y: '-100%' }}
                         animate={{ y: 0 }}
                         exit={{ y: '-100%' }}
-                        transition={{ duration: 0.5, ease: 'easeInOut' }}
+                        transition={{ duration: 0.5, ease: 'easeInOut' as const }}
                         className="bg-navy-dark fixed inset-0 z-40"
                     >
                         <div className="flex h-full flex-col justify-between">

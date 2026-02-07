@@ -32,7 +32,7 @@ export default function NotFound() {
             <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5, duration: 0.8, ease: 'easeOut' }}
+                transition={{ delay: 0.5, duration: 0.8, ease: 'easeOut' as const }}
                 className="relative inline-block"
             >
                 <h1 className="font-header text-blue-light text-8xl font-bold md:text-9xl">404</h1>
@@ -53,7 +53,7 @@ export default function NotFound() {
             <motion.p
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.3, duration: 0.5, ease: 'easeOut' }}
+                transition={{ delay: 1.3, duration: 0.5, ease: 'easeOut' as const }}
                 className="text-blue-lighter mt-8 text-xl md:text-2xl"
             >
                 It seems you might be lost (or I&apos;m broken).
@@ -64,7 +64,7 @@ export default function NotFound() {
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.7, duration: 0.3, ease: 'easeOut' }}
+                transition={{ delay: 1.7, duration: 0.3, ease: 'easeOut' as const }}
             >
                 <Link
                     href={homeLink}
