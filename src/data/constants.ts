@@ -7,6 +7,7 @@ import {
     RiMailOpenFill,
 } from 'react-icons/ri';
 import {
+    SiAngular,
     SiBootstrap,
     SiCss3,
     SiExpress,
@@ -22,6 +23,7 @@ import {
     SiPython,
     SiPytorch,
     SiReact,
+    SiRedis,
     SiTailwindcss,
     SiTypescript,
 } from 'react-icons/si';
@@ -53,6 +55,28 @@ export const INFO = {
 };
 
 export const PROJECTS = [
+    {
+        title: 'Better-Calendar-Holidays',
+        description:
+            'A self-hosted holiday ICS feed platform built with Angular and FastAPI, aggregating multiple APIs to generate deduplicated, subscribable calendar feeds.',
+        keyConcepts: [
+            'ICS Feed Generation',
+            'API Aggregation',
+            'Holiday Deduplication',
+            'Caching & Rate Limiting',
+        ],
+        techStack: [
+            { name: 'Angular', icon: SiAngular },
+            { name: 'Tailwind CSS', icon: SiTailwindcss },
+            { name: 'TypeScript', icon: SiTypescript },
+            { name: 'Python', icon: SiPython },
+            { name: 'FastAPI', icon: SiFastapi },
+            { name: 'Redis', icon: SiRedis },
+        ],
+        image: '/projects/Better-Calendar-Holidays.png',
+        github: 'https://github.com/SamirTheSWE/Better-Calendar-Holidays',
+        link: 'https://projects.samir.cx/Better-Calendar-Holidays',
+    },
     {
         title: 'F1 Race Forecasting',
         description:
