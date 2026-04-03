@@ -7,20 +7,18 @@ updates:
       day: "monday"
       time: "09:00"
       timezone: "Europe/London"
-    
-    open-pull-requests-limit: 0
-    
+    open-pull-requests-limit: 10
     commit-message:
       prefix: "chore"
       prefix-development: "chore"
       include: "scope"
-    
     reviewers:
       - "SamirTheSWE"
-    assignees:
-      - "SamirTheSWE"
     labels:
-      - "dependabot"
-    
+      - "dependencies"
+    groups:
+      frontend-dependencies:
+        patterns:
+          - "*"
     rebase-strategy: "auto"
     target-branch: "main"
